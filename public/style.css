@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,600&display=swap');
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	font-family: 'Raleway', sans-serif;
+	background:linear-gradient(315deg, #eec0c6 0%, #7ee8fa 34%,#eec0c6 100%);
+	overflow-x: hidden;
+	z-index: 1;
+	display: flex;
+}
+
+
+.message.left {
+  margin-right: 20% !important;
+  border-top-left-radius: 0 !important;
+}
+.message.right {
+  margin-left: 20% !important;
+  border-bottom-right-radius: 0 !important;
+}
+.msg-time {
+  display: block;
+  opacity: .7;
+  font-size: .7rem;
+}
+.messages {
+  height: 60vh;
+  overflow-y: auto;
+}
+.sidebar {
+  height: calc(60vh + 101px);
+}
+.table tr td, #user-title, #active-user, #users-tagline {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.table tr td {
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .body.container {
+    max-width: 95%;
+  }
+}
+.msg_link{
+  background:linear-gradient(315deg, #11057e 0%, #e2d8e1 34%,#11057e 100%)
+}
+.header-line{
+  background-color: #fde74c;
+  background: linear-gradient(315deg, #11057e 0%, #141052 34%,#11057e 100%); 
+}
+.login-container {
+background-color: #fde74c;
+background: linear-gradient(315deg, #11057e 0%, #e2d8e1 34%,#11057e 100%);
+}
